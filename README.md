@@ -10,16 +10,17 @@ a- Pour exécuter le projet:
     -> cd partition/src
     -> javac Main.java
     -> java Main
+    
 b- La partie démo s'affiche dans votre invite de commande montrant le résultat de partitionnement d'une liste d'entier allant de 1 à 5.
 
 2/ La class « PartitionTest » Montre le test unitaire pour la class « Partition » avec Junit4.
 
-3/ Le fichier partition.jar situé sous out/artifacts/partition_jar/ constitut notre librérie packagée, maintenant nous pouvons l'ajouter commme dépendance dans toute autre application et pour l'utiliser il suffit de l'importer comme une bibliothèque java:
+3/ Le fichier partition.jar situé sous out/artifacts/partition_jar/ constitute notre librairie packagée, maintenant nous pouvons l'ajouter comme dépendance dans toute autre application et pour l'utiliser il suffit de l'importer comme une bibliothèque java:
 
   -> import partition.*;
   -> il suffit d'appeler la fonction "partition.getPartition(liste, taille);" dans notre code qui retourne une liste de sous listes d'entiers
   
-  Remarque: Le fichier MANIFEST.MF contient toutes les méta de configuration de notre jar
+  Remarque: Le fichier MANIFEST.MF contient touts les métas de configuration de notre jar
   
  ######## Merci pour votre temps et votre attention. #########
 
